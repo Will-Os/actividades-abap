@@ -1,2 +1,2 @@
 # Actividades ABAP
-Actividades realizadas para el curso ABAP Básico.
+Actividades realizadas para el curso ABAP Básico..
