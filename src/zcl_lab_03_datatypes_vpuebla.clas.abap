@@ -26,7 +26,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_03_datatypes_vpuebla IMPLEMENTATION.
+CLASS ZCL_LAB_03_DATATYPES_VPUEBLA IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 *   Conversiones de tipo
@@ -66,5 +67,4 @@ CLASS zcl_lab_03_datatypes_vpuebla IMPLEMENTATION.
     out->write( | Hora Actual (UTC) = { MV_TIME(2) }:{ MV_TIME+2(2) }:{ MV_TIME+4(2) } { MV_FORMATO } | ).
 
   ENDMETHOD.
-
 ENDCLASS.

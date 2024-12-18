@@ -10,11 +10,11 @@ CLASS zcl_test_wilo DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-"Implementacion de Clase"
 
-CLASS zcl_test_wilo IMPLEMENTATION.
 
-"Es un metodo que vamos a crear, las variables están dentro del método"
+CLASS ZCL_TEST_WILO IMPLEMENTATION.
+
+
 METHOD if_oo_adt_classrun~main.
     "KEYWORD DATA: Las variables que va utilizar el método"
     DATA: lv_holamundo TYPE string VALUE 'HolaMundo',
@@ -40,5 +40,4 @@ METHOD if_oo_adt_classrun~main.
     out->write( 'HOLA MUNDO' ).
     OUT->write( cl_abap_context_info=>get_system_time( ) ).
 ENDMETHOD.
-
 ENDCLASS.

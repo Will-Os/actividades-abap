@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_01_var_vicentepuebla IMPLEMENTATION.
+CLASS ZCL_LAB_01_VAR_VICENTEPUEBLA IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
     "Variables elementales"
@@ -74,5 +76,4 @@ CLASS zcl_lab_01_var_vicentepuebla IMPLEMENTATION.
     out->write( | ID: { ls_customer-id } CUSTOMER: { ls_customer-customer } AGE: { ls_customer-age } | ).
 
   ENDMETHOD.
-
 ENDCLASS.

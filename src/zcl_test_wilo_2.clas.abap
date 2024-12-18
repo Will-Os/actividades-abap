@@ -14,9 +14,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_test_wilo_2 IMPLEMENTATION.
+CLASS ZCL_TEST_WILO_2 IMPLEMENTATION.
 
-   "Clase de operaciones aritmeticas"
 
   METHOD if_oo_adt_classrun~main.
     "Suma: Puede ser ocupado un operador ADD el cual está desfazado.
@@ -56,5 +55,4 @@ CLASS zcl_test_wilo_2 IMPLEMENTATION.
 
     "NOTA: con DATA() se pueden realizar declaraciones en la misma línea: DATA(lv_variable) = 'HOLA'
   ENDMETHOD.
-
 ENDCLASS.

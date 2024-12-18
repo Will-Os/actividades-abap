@@ -16,7 +16,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_05_invoice_vpuebla IMPLEMENTATION.
+CLASS ZCL_LAB_05_INVOICE_VPUEBLA IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
